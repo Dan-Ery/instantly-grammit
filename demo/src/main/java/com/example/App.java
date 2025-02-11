@@ -14,12 +14,11 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
-
-        fizz();
+        System.out.println( "Starting Instantly-Grammit..." );
+        MainFrame.main(new String[0]);
     }
 
-    private static void fizz(){
+    public static void gram(){
         BufferedImage src;
         ImageManager imageMan = new ImageManager();
         try {
